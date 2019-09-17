@@ -1,0 +1,10 @@
+Is the git status command mandatory to type each time you run commands in git? 
+    No, it is typically done before you use "git add ." and after. If you use "git status" before the "git add ." it allows us to know if new files (or changes) have been added or remove in order before we commit. After "git add ." we are ensuring that the files we have chosen have been saved. 
+
+
+Why would we ever want to use the git status command?
+In order to see if there is an error with the file or where the file is being tracked.
+
+Why do the commands "ls", "git status", and "pwd" fail when I type them in my terminal after first typing: node <hit enter key>. If I have no idea how to exit this section of the terminal to go back to my regular terminal, what help command do I type?
+
+If using commands like "ls", "git status", and "pwd" will fail after timing in node, is because node mode gives you a different environment to run JavaSctipt. The commands like "ls" are meant to be in your bash environment. If you would like to go back to your regular terminal, then you can press (in MAC) "control + C" twice to revert back. Another way, could exiting the terminal and reloading it.
